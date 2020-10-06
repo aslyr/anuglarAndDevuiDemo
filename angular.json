@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/ng-devui/devui.min.css"
             ],
             "scripts": []
           },
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "App1"
+    }
+  },
+  "defaultProject": "App1",
+  "cli": {
+    "analytics": false
+  }
 }
